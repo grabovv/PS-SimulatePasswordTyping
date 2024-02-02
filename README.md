@@ -4,12 +4,8 @@ To run this script, you need to execute the PowerShell script in the console:<br
 Specify the delay in seconds before pasting (typing) the clipboard content.<br>
 Copy the content (password) to the clipboard.<br>
 Highlight with the mouse the field where the password should be entered.<br>
-Press F8 - the script will type the clipboard content after the delay you specified.<br>
-
-# Description
-The script first prompts for a delay before pasting the clipboard content.<br>
-After that, it creates a hotkey (F8) through which we will trigger the paste action.<br>
-Upon pressing the hotkey, the script waits for the previously specified delay and then pastes the content (simulating typing) into the selected mouse location.
+Press F8 - the script will type the clipboard content after the delay you specified.<br><br>
+**The script runs in a loop, which means you don't have to start it each time.<br> As long as it is running, you can use the F8 shortcut as many times as needed.**
 
 # Use-case
 Useful for authentication in cases of complex and long passwords and in situations where we cannot paste the password using '**CTRL + C**' / '**CTRL + V**'.
